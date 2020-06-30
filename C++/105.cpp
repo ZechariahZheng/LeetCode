@@ -29,7 +29,7 @@ public:
             
         //遍历中序序列，找到根节点的位置
         int rootInorder = inStart;
-        while (inorder.at(rootInorder)!=rootValue && rootInorder<=inEnd) {
+        while (inorder.at(rootInorder)!=rootValue && rootInorder<inEnd) {
             rootInorder++;
         }
 
