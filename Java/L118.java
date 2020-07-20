@@ -17,7 +17,7 @@ public class L118 {
                 tmp.add(1);
                 List<Integer> last = res.get(res.size()-1);
                 for (int j = 0; j < last.size()-1; j++) {
-                    tmp.add(last.get(j));
+                    tmp.add(last.get(j)+last.get(j+1));
                 }
                 tmp.add(1);
             }
